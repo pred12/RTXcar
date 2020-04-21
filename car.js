@@ -26,9 +26,9 @@ function zoom() {
       oldCommand.innerHTML = "Car stoped";
     } else if(command.value === ">Help" || command.value === ">help"){
       oldCommand.innerHTML = `
-      Here is a list!
-      - Start = starts da car
-      - Stop = stops da car
+      Here is a list! <br>
+      >Start = starts da car <br>
+      >Stop = stops da car
       `
     }else{
       oldCommand.innerHTML = "I don't understand! Type >Help"
